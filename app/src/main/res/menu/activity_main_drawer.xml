@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item android:title="Inhoudsopgave">
+        <menu>
+            <item
+                android:id="@+id/nav_introductie"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Introductie" />
+            <item
+                android:id="@+id/nav_voorwoord"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Voorwoord" />
+            <item
+                android:id="@+id/nav_persoonlijk"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Persoonlijk deel" />
+            <item
+                android:id="@+id/nav_opleiding"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Opleidingsdeel" />
+
+        </menu>
+    </item>
+    </group>
+
+</menu>
